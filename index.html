@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio — Fadlan Chairruddin Lubis</title>
+  <meta name="description" content="Portofolio sederhana Fadlan Chairruddin Lubis — Educational Game Developer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container hero">
+      <div class="hero__media">
+        <img src="24. FADLAN CHAIRUDDIN LUBIS TI_190100039.JPG" alt="Fadlan Chairruddin Lubis" class="avatar">
+      </div>
+      <div class="hero__copy">
+        <h1>Halo, saya <span>Fadlan Chairruddin Lubis</span> 👋</h1>
+        <p class="tagline">Educational Game Developer • Pembelajar seumur hidup • Penggemar cerita interaktif</p>
+        <p class="intro">
+          Saya mengembangkan <strong>game edukatif</strong> yang memadukan narasi, interaksi, dan kuis untuk membantu siswa
+          belajar dengan cara yang menyenangkan. Misi saya sederhana: <em>membuat belajar terasa seperti bermain</em> —
+          tanpa kehilangan kedalaman konsep.
+        </p>
+        <nav class="cta">
+          <a class="btn" href="#projects">Lihat Proyek</a>
+          <a class="btn btn--ghost" href="#kontak">Hubungi Saya</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section container">
+      <h2>🎮 Project Unggulan — CardioFun (v1.0)</h2>
+      <p class="lead">
+        <strong>CardioFun</strong> adalah game edukasi bertema <em>visual novel interaktif</em> untuk siswa kelas 5 SD,
+        berfokus pada <strong>kesehatan organ peredaran darah</strong>. Pemain mengikuti kisah seorang siswa bernama Siti,
+        mulai dari bangun tidur hingga berangkat ke sekolah, sambil mempraktikkan kebiasaan hidup sehat.
+        Di akhir cerita tersedia <strong>10 butir soal kuis</strong> untuk menguji pemahaman materi.
+      </p>
+
+      <div class="specs">
+        <div><span>Jenis:</span> Visual Novel + Quiz</div>
+        <div><span>Target:</span> Siswa SD Kelas 5</div>
+        <div><span>Tujuan:</span> Pemahaman sistem peredaran darah</div>
+      </div>
+
+      <h3>Cuplikan Layar</h3>
+      <div class="gallery">
+        <figure><img src="Screenshot (49).png" alt="Halaman awal CardioFun"><figcaption>Halaman Awal</figcaption></figure>
+        <figure><img src="Screenshot (50).png" alt="Adegan di kamar"><figcaption>Awal Cerita</figcaption></figure>
+        <figure><img src="Screenshot (51).png" alt="Adegan di dapur dengan ibu"><figcaption>Kebiasaan Sehat</figcaption></figure>
+        <figure><img src="Screenshot (52).png" alt="Adegan di dapur dengan ayah"><figcaption>Dukungan Orang Tua</figcaption></figure>
+        <figure><img src="Screenshot (54).png" alt="Adegan di kelas bersama Pak Budi"><figcaption>Di Sekolah</figcaption></figure>
+        <figure><img src="Screenshot (55).png" alt="Pilihan dialog kesiapan di kelas"><figcaption>Interaksi</figcaption></figure>
+        <figure><img src="Screenshot (56).png" alt="Mulai ulangan"><figcaption>Mulai Kuis</figcaption></figure>
+        <figure><img src="Screenshot (57).png" alt="Pertanyaan kuis tentang pembuluh darah"><figcaption>Soal Kuis</figcaption></figure>
+        <figure><img src="Screenshot (58).png" alt="Hasil akhir nilai"><figcaption>Hasil Penilaian</figcaption></figure>
+      </div>
+    </section>
+  </main>
+
+  <footer id="kontak" class="site-footer">
+    <div class="container">
+      <h2>🌐 Media Sosial</h2>
+      <ul class="social">
+        <li><a href="mailto:chairuddinlubisfadlan@gmail.com">Email</a></li>
+        <li><a href="https://linkedin.com/in/fadlanchairuddinlubis29" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/fdlnlbs?igsh=dmtid3RhZWY5aTlj" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+      <p class="copyright">© <span id="y"></span> Fadlan Chairruddin Lubis. Dibuat dengan ❤ untuk GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
